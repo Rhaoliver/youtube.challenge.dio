@@ -1,2 +1,347 @@
 @import url(./reset.css);
 
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+body header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 1% 2% 2% 2%;
+    color: rgb(136, 134, 134);
+    
+}
+
+nav .left, .center, .right {
+    display: inline-flex;
+    align-items: center;
+}
+
+nav .left {
+    gap: 20px;
+}
+
+nav .center {
+    margin-left: 50px;
+    gap: 20px;
+}
+
+nav .center img,
+nav .right img {
+    width: 20px;
+}
+
+.center .search {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 550px;
+    height: 40px;
+}
+
+.search-1 {
+    border: 1px rgb(184, 201, 201) double;
+    width: 480px;
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+}
+
+.search-1 p {
+    margin-top: 9px;
+    margin-left: 14px;
+}
+
+.search-2 {
+    border: 1px rgb(184, 201, 201) double;
+    width: 70px;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    position: relative;
+    background-color: rgb(241, 248, 248);
+}
+
+.search-2 img {
+    margin-left: 20px;
+    margin-top: 9px;
+}
+
+.voice {
+    background-color: rgb(241, 248, 248);
+    width: 45px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.voice img {
+    margin-left: 3px;
+}
+
+.right .settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 40px;
+}
+
+.sign {
+    border: 1px rgb(184, 201, 201) double;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    color: blue;
+    text-align: center;
+}
+
+.sign p {
+    margin-top: 9px;
+    font-size: medium;
+}
+
+.button-settings img {
+    margin-left: 40px;
+    margin-top: 7px;
+}
+
+#section-video {
+    margin-left: 8%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#left {
+    display: block;
+    margin-top: 0;
+}
+
+.main-video h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    align-content: flex-start;
+}
+
+.ident {
+    display: flex;
+    gap: 15px;
+    width: 150px;
+}
+
+.ident p {
+    color:rgb(119, 118, 118);
+    font-size: small;
+    margin-top: 10px;
+    padding-right: 25px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.buttons .ident .subscribe {
+    border: 1px double rgb(184, 201, 201);
+    background-color: black;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.likes {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    box-sizing: content-box;
+}
+
+.likes img {
+    background-color: aliceblue;
+    width: 30px;
+    height: 30px;
+    margin-left: 23px;
+}
+
+.like img {
+    padding: 2px 2px;
+}
+
+.dislikes img {
+    background-color: aliceblue;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+
+.buttonCta {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+
+.likes .buttons-likes {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    margin-left: 400px;
+    padding-left: 0;
+}
+
+
+.like {
+    border: 1px rgb(241, 248, 248) double;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    background-color: rgb(241, 248, 248);
+    width: 80px;
+    border-right: 1px double lightgray;
+}
+
+.dislike {
+    border: 1px rgb(241, 248, 248) double;
+    border-radius: 0 20px 20px 0;
+    position: relative;
+    background-color: rgb(241, 248, 248);
+    width: 80px;
+    border-left: 1px double lightgray;
+}
+
+.share-p {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    height: 40px;
+    width: 180px;
+}
+
+.share {
+    border: 1px rgb(241, 248, 248) double;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    background-color: rgb(241, 248, 248);
+    padding-left: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 80px;
+    height: 60px;
+    margin-top: 0;
+}
+
+.share img {
+    height: 40px;
+    width: 60px;
+}
+
+.share-p img {
+    height: 35px;
+}
+
+.p-share {
+    border: 1px rgb(241, 248, 248) double;
+    border-radius: 0 20px 20px 0;
+    position: relative;
+    background-color: rgb(241, 248, 248);
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.more {
+    background-color: rgb(241, 248, 248);
+    width: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.more img {
+    width: 40px;
+    height: 40px;
+}
+
+.left h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+.left .text {
+    font-size: 15px;
+    width: 80%;
+    color:rgb(58, 57, 57);
+    text-align: justify;
+}
+
+.left .show-more {
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#right {
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.views {
+    display: inline-flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.chat {
+    border: 1px rgb(184, 201, 201) double;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 12px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.video {
+    border-radius: 10px;
+}
+
+.container h4 {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.container p {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: small;
+    color:rgb(119, 118, 118);
+    font-weight: 500;
+}
