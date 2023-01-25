@@ -1,2 +1,2 @@
 # youtube.challenge.dio
-DIO challenge, cloning youtube page with CSS.
+DIO challenge, cloning youtube page with CSS and Flexbox
